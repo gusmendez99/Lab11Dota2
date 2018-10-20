@@ -1,7 +1,9 @@
 package models
 
-class Game<T>(val narrador: T, var radiantTeam: Team?, var direTeam: Team?,
-              var radiantDeaths: Int, var direDeaths: Int, var winner: Int) where T: Narrator {
+class Game<T>(val narrador: T, var radiantDeaths: Int, var direDeaths: Int, var winner: Int) where T: Narrator {
+
+    lateinit var radiantTeam: Team
+    lateinit var direTeam: Team
 
     fun welcome(): String{
         return narrateSomething(narrador, "welcome")

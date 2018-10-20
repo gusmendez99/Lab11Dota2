@@ -1,6 +1,6 @@
 package models
 
-class Team {
+class Team() {
 
     val ancient = Ancient()
 
@@ -8,7 +8,7 @@ class Team {
     val towers = ArrayList<Tower>()
 
 
-    fun addHeroe(hero:Hero){
+    fun addHero(hero:Hero){
         if(heroes.size < 5){
             heroes.add(hero)
         }

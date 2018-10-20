@@ -3,7 +3,7 @@ package utils
 import models.Hero
 
 object GameUtils{
-    fun getDummyHeroes():List<Hero> {
+    fun getDummyHeroes():ArrayList<Hero> {
         return arrayListOf<Hero>(
                 Hero("Axe", "Strength"),
                 Hero("Io", "Strength"),
