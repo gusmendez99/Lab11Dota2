@@ -2,57 +2,58 @@ package narrator
 
 import models.Narrator
 
-class MorganFreeman:Narrator {
+class RubenMoya:Narrator {
     //Voz en latino de Morgan Freeman
 
     override fun narrate(eventType: String): String {
-
+        
         when (eventType) {
             "welcome" -> {
                 return """
-                    | Welcome! Im Morgan Freeman
-                    | Today we back to a new game. What awaits us today!
+                    | ¡Bienvenidos a todos! Soy Ruben Moya, la voz latina de Morgan Freeman
+                    | El dia de hoy volvemos a una nueva partida ¡Lo que nos espera el dia de hoy!
                 """.trimIndent()
             }
             "gameStart" -> {
                 return """
-                    | The game has begun!
+                    | ¡Empieza el juego!
                 """.trimMargin()
             }
             "killOccurred" -> {
                 return """
-                    | A death has occurred!
+                    | ¡Ha ocurrido una muerte!
                 """.trimMargin()
             }
             "twoKillsOccurred" -> {
                 return """
-                    | Two or more deaths! This game is getting interesting
+                    | ¡Dos o mas muertes! Esta partida se va poniendo interesante
                 """.trimMargin()
             }
             "fiveKillsOccurred" -> {
                 return """
-                    | 5 deaths!!! IMPOSSIBLE, it seems that we are running out of game in short
-                    | *IT WAS AT THIS MOMENT HE KNEW HE FUCKED UP*
+                    | ¡¡¡5 muertes!!! IMPOSIBLE, parece ser que se nos acaba la partida en corto
+                    | * Fue en este momento que supo que la había jodido *
                     """.trimMargin()
             }
             "towerHasFallen" -> {
                 return """
-                    | A tower has fallen! The game is running out
-                    | *IT WAS AT THIS MOMENT HE KNEW HE FUCKED UP*
+                    | ¡La torre ha caido! Se nos avecina el final de la partida en muy poco
+                    | * Fue en este momento que supo que la había jodido *
                 """.trimMargin()
             }
             "direWins" -> {
                 return """
-                    | Dire wins!
+                    | ¡El equipo Dire ha ganado!
                 """.trimMargin()
             }
             "radiantWins" -> {
                 return """
-                    | Radiant wins!
+                    | ¡El equipo Radiant ha ganado!
                 """.trimMargin()
             }
             else -> return ""
         }
     }
+
 
 }
