@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="301a1068-1465-4a77-b2b9-cbb1fedb4bfc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Ancient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Ancient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Hero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Hero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/narrator/MorganFreeman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/narrator/MorganFreeman.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/GameUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/GameUtils.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,17 +22,89 @@
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="81" column="43" lean-forward="true" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+            <state relative-caret-position="255">
+              <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameUtils.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/GameUtils.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RubenMoya.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/narrator/RubenMoya.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MorganFreeman.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/narrator/MorganFreeman.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tower.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Tower.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Team.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Team.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Narrator.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Narrator.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hero.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Hero.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/Game.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+            <state relative-caret-position="160">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ancient.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/models/Ancient.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -55,6 +131,7 @@
       <find>gameStart</find>
       <find>menuSelection</find>
       <find>!!</find>
+      <find>Team!!</find>
     </findStrings>
     <replaceStrings>
       <replace>return</replace>
@@ -65,6 +142,7 @@
       <replace>++</replace>
       <replace>option</replace>
       <replace>game_start</replace>
+      <replace>Team</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -81,24 +159,24 @@
         <option value="$PROJECT_DIR$/src/models/Commentator.kt" />
         <option value="$PROJECT_DIR$/src/narrator/ESPN.kt" />
         <option value="$PROJECT_DIR$/src/narrator/Morgan Freeman.kt" />
-        <option value="$PROJECT_DIR$/src/models/Hero.kt" />
         <option value="$PROJECT_DIR$/src/models/Narrator.kt" />
-        <option value="$PROJECT_DIR$/src/utils/GameUtils.kt" />
         <option value="$PROJECT_DIR$/src/models/Tower.kt" />
         <option value="$PROJECT_DIR$/src/models/Team.kt" />
-        <option value="$PROJECT_DIR$/src/narrator/MorganFreeman.kt" />
         <option value="$PROJECT_DIR$/src/narrator/RubenMoya.kt" />
-        <option value="$PROJECT_DIR$/src/models/Ancient.kt" />
-        <option value="$PROJECT_DIR$/src/main.kt" />
         <option value="$PROJECT_DIR$/src/models/Game.kt" />
+        <option value="$PROJECT_DIR$/src/utils/GameUtils.kt" />
+        <option value="$PROJECT_DIR$/src/narrator/MorganFreeman.kt" />
+        <option value="$PROJECT_DIR$/src/models/Hero.kt" />
+        <option value="$PROJECT_DIR$/src/main.kt" />
+        <option value="$PROJECT_DIR$/src/models/Ancient.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1247" />
-    <option name="y" value="-59" />
-    <option name="width" value="1366" />
-    <option name="height" value="573" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -106,8 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,7 +219,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,13 +315,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1368" y="-59" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="simpleUML" order="2" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -251,12 +328,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6254125" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.62376237" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.12871288" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3480243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3517398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24810892" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -268,12 +345,24 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/models/Game.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -544,38 +633,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/narrator/ESPN" />
-    <entry file="file://$PROJECT_DIR$/src/models/Hero.kt">
+    <entry file="file://$PROJECT_DIR$/src/utils/GameUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="85">
+          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/narrator/RubenMoya.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Tower.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Ancient.kt">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Narrator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/narrator/MorganFreeman.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="26" />
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -586,31 +661,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/narrator/RubenMoya.kt">
+    <entry file="file://$PROJECT_DIR$/src/models/Narrator.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/GameUtils.kt">
+    <entry file="file://$PROJECT_DIR$/src/models/Hero.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="51">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/narrator/MorganFreeman.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="81" column="43" lean-forward="true" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
+        <state relative-caret-position="255">
+          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Game.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        <state relative-caret-position="160">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Ancient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
         </state>
       </provider>
     </entry>

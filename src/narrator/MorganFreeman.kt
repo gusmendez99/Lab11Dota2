@@ -3,7 +3,7 @@ package narrator
 import models.Narrator
 
 class MorganFreeman:Narrator {
-    //Voz en latino de Morgan Freeman
+    //Voz de Morgan Freeman
 
     override fun narrate(eventType: String): String {
 

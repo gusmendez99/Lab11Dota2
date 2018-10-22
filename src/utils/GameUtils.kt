@@ -3,6 +3,7 @@ package utils
 import models.Hero
 
 object GameUtils{
+    //Esto solo devuelve los 20 heroes que se inicializan al lanzar el programa
     fun getDummyHeroes():ArrayList<Hero> {
         return arrayListOf<Hero>(
                 Hero("Axe", "Strength"),

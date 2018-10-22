@@ -1,6 +1,6 @@
 package models
 
 class Ancient {
-    var isDead = false
+    var isDead = false //Unica propiedad inicializada como null
 
 }

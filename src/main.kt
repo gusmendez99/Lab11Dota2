@@ -42,6 +42,7 @@ fun main (args: Array<String>) {
 
 
     var noTowers = false
+    println(game.gameStart())
     do {
         println(getMenu(noTowers))
         print("> ")
