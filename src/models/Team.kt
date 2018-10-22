@@ -3,9 +3,14 @@ package models
 class Team() {
 
     val ancient = Ancient()
-
     val heroes = ArrayList<Hero>()
     val towers = ArrayList<Tower>()
+
+    init {
+        for (i in 1..6){
+            towers.add(Tower())
+        }
+    }
 
 
     fun addHero(hero:Hero){
@@ -13,12 +18,5 @@ class Team() {
             heroes.add(hero)
         }
     }
-
-    fun addTower(){
-        if(towers.size < 5){
-            towers.add(Tower())
-        }
-    }
-
 
 }

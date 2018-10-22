@@ -9,13 +9,13 @@ fun main (args: Array<String>) {
     val availableHeroes: ArrayList<Hero> = GameUtils.getDummyHeroes()
     val rubenMoya = RubenMoya() //A.K.A Morgan Freeman en latino
     val game = Game<Narrator>(rubenMoya, 0,0,2)
-    //se asignan los equipos al partido actual
+    //Asignacion de equipos
     game.radiantTeam = Team()
     game.direTeam = Team()
 
     print(game.welcome())
 
-    println("--------------------------------------------------")
+    println("\n--------------------------------------------------")
     val radiantHeroes: ArrayList<Hero> = ArrayList()
     val direHeroes: ArrayList<Hero> = ArrayList()
 
@@ -25,8 +25,8 @@ fun main (args: Array<String>) {
         availableHeroes.forEachIndexed{index, heroe -> println("${index+1}. ${heroe.name} (${heroe.type})")}
         println("Selecciona un héroe de la lista")
         when {
-            radiantSelects -> println("------Selección de héroes Radiant-------")
-            else -> println("------Selección de héroes Dire-------")
+            radiantSelects -> print("------Selección de héroes Radiant-------\n> ")
+            else -> print("------Selección de héroes Dire-------\n> ")
         }
         val heroIndex = readLine()!!.toInt()
         when {
@@ -45,9 +45,10 @@ fun main (args: Array<String>) {
 
     var noTowers = false
     do {
-        print(getMenu(noTowers))
-        val menuSelection = readLine()!!.toInt()
-        when(menuSelection) {
+        println(getMenu(noTowers))
+        print("> ")
+        val option = readLine()!!.toInt()
+        when(option) {
             1->{
                 println("¿Fue Radiant quien mató? si/no")
                 val wasRadiantKill = readLine().toString()
@@ -57,18 +58,18 @@ fun main (args: Array<String>) {
                         println("¿Cuántas Muertes? (0-5)")
                         val killsCount = readLine()!!.toInt()
                         when (killsCount) {
-                            1 -> print(game.killOccurred(true))
-                            in 2..4 -> print(game.multipleKillsOccurred(true,killsCount))
-                            5 -> print(game.fiveKillsOccurred(true))
+                            1 -> println(game.killOccurred(true))
+                            in 2..4 -> println(game.multipleKillsOccurred(true,killsCount))
+                            5 -> println(game.multipleKillsOccurred(true,5))
                         }
                     }
                     "no" -> {
                         println("¿Cuántas Muertes? (0-5)")
                         val killsCount = readLine()!!.toInt()
                         when {
-                            killsCount in 1..5 && killsCount == 1 -> print(game.killOccurred(false))
-                            killsCount in 2..6 -> print(game.multipleKillsOccurred(false,killsCount))
-                            killsCount == 5 -> print(game.fiveKillsOccurred(false))
+                            killsCount in 1..5 && killsCount == 1 -> println(game.killOccurred(false))
+                            killsCount in 2..4 -> println(game.multipleKillsOccurred(false,killsCount))
+                            killsCount == 5 -> println(game.multipleKillsOccurred(false, 5))
                         }
                     }
                 }
@@ -79,10 +80,16 @@ fun main (args: Array<String>) {
                 val wasRadiantKill = readLine().toString()
                 when (wasRadiantKill.toLowerCase()){
                     "si" -> {
-                        print(game.towerKilled(true))
+                        when {
+                            !game.direTeam!!.towers.isEmpty() -> println(game.towerKilled(true))
+                            else -> println("No hay torres vivas...")
+                        }
                     }
                     "no" -> {
-                        print(game.towerKilled(false))
+                        when {
+                            !game.direTeam!!.towers.isEmpty() -> println(game.towerKilled(false))
+                            else -> println("No hay torres vivas...")
+                        }
                     }
                 }
                 if (game.radiantTeam!!.towers.size == 0 || game.direTeam!!.towers.size == 0){
@@ -93,8 +100,18 @@ fun main (args: Array<String>) {
                 println("¿Fue Radiant quien mató? si/no")
                 val radiantKilled = readLine().toString()
                 when(radiantKilled){
-                    "si" -> {print(game.ancientKilled(true))}
-                    "no" -> {print(game.ancientKilled(false))}
+                    "si" -> {
+                        when {
+                            game.direTeam!!.towers.isEmpty() -> println(game.ancientKilled(true))
+                            else -> print("Quedan vivas sus torres aun!")
+                        }
+                    }
+                    "no" -> {
+                        when {
+                            game.radiantTeam!!.towers.isEmpty() -> println(game.ancientKilled(false))
+                            else -> print("Quedan vivas sus torres aun!")
+                        }
+                    }
                 }
             }
         }

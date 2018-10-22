@@ -14,7 +14,7 @@ class RubenMoya:Narrator {
                     | El dia de hoy volvemos a una nueva partida ¡Lo que nos espera el dia de hoy!
                 """.trimIndent()
             }
-            "gameStart" -> {
+            "game_start" -> {
                 return """
                     | ¡Empieza el juego!
                 """.trimMargin()
@@ -24,7 +24,7 @@ class RubenMoya:Narrator {
                     | ¡Ha ocurrido una muerte!
                 """.trimMargin()
             }
-            "twoKillsOccurred" -> {
+            "killsOccurred" -> {
                 return """
                     | ¡Dos o mas muertes! Esta partida se va poniendo interesante
                 """.trimMargin()

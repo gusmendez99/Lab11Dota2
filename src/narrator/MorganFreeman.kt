@@ -14,7 +14,7 @@ class MorganFreeman:Narrator {
                     | Today we back to a new game. What awaits us today!
                 """.trimIndent()
             }
-            "gameStart" -> {
+            "game_start" -> {
                 return """
                     | The game has begun!
                 """.trimMargin()
@@ -24,7 +24,7 @@ class MorganFreeman:Narrator {
                     | A death has occurred!
                 """.trimMargin()
             }
-            "twoKillsOccurred" -> {
+            "killsOccurred" -> {
                 return """
                     | Two or more deaths! This game is getting interesting
                 """.trimMargin()
