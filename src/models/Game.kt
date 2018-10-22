@@ -16,11 +16,11 @@ class Game<T>(val narrator: T, var radiantDeaths: Int, var direDeaths: Int, var 
     fun killOccurred(isRadiant: Boolean): String{
         when {
             isRadiant -> {
-                this.direTeam!!.heroes.removeAt(0)
+                this.direTeam.heroes.removeAt(0)
                 this.radiantDeaths ++
             }
             else -> {
-                this.radiantTeam!!.heroes.removeAt(0)
+                this.radiantTeam.heroes.removeAt(0)
                 this.direDeaths ++
             }
         }
@@ -31,13 +31,13 @@ class Game<T>(val narrator: T, var radiantDeaths: Int, var direDeaths: Int, var 
         when {
             isRadiant -> {
                 for (i in 0..(numberOfKills-1)){
-                    if(this.direTeam!!.heroes.isNotEmpty()) this.direTeam!!.heroes.removeAt(0)
+                    if(this.direTeam.heroes.isNotEmpty()) this.direTeam.heroes.removeAt(0)
                 }
                 this.radiantDeaths += numberOfKills
             }
             else -> {
                 for (i in 0..(numberOfKills-1)){
-                    if(this.radiantTeam!!.heroes.isNotEmpty()) this.radiantTeam!!.heroes.removeAt(0)
+                    if(this.radiantTeam.heroes.isNotEmpty()) this.radiantTeam.heroes.removeAt(0)
                 }
                 this.direDeaths += numberOfKills
             }
@@ -51,11 +51,11 @@ class Game<T>(val narrator: T, var radiantDeaths: Int, var direDeaths: Int, var 
     fun towerKilled(isRadiant: Boolean): String{
         when {
             isRadiant -> {
-                this.direTeam!!.towers.removeAt(0)
+                this.direTeam.towers.removeAt(0)
                 this.radiantDeaths ++
             }
             else -> {
-                this.radiantTeam!!.towers.removeAt(0)
+                this.radiantTeam.towers.removeAt(0)
                 this.direDeaths ++
             }
         }
@@ -65,14 +65,14 @@ class Game<T>(val narrator: T, var radiantDeaths: Int, var direDeaths: Int, var 
     fun ancientKilled(isRadiant: Boolean): String{
         when {
             isRadiant -> {
-                this.direTeam!!.ancient.isDead = true
+                this.direTeam.ancient.isDead = true
                 this.radiantDeaths ++
                 this.winner = 0
                 return narrateSomething(narrator,"radiantWins")
 
             }
             else -> {
-                this.radiantTeam!!.ancient.isDead = true
+                this.radiantTeam.ancient.isDead = true
                 this.direDeaths++
                 this.winner = 1
                 return narrateSomething(narrator, "direWins")

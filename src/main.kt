@@ -16,8 +16,6 @@ fun main (args: Array<String>) {
     print(game.welcome())
 
     println("\n--------------------------------------------------")
-    val radiantHeroes: ArrayList<Hero> = ArrayList()
-    val direHeroes: ArrayList<Hero> = ArrayList()
 
     var radiantSelects = false
     do {
@@ -81,18 +79,18 @@ fun main (args: Array<String>) {
                 when (wasRadiantKill.toLowerCase()){
                     "si" -> {
                         when {
-                            !game.direTeam!!.towers.isEmpty() -> println(game.towerKilled(true))
+                            !game.direTeam.towers.isEmpty() -> println(game.towerKilled(true))
                             else -> println("No hay torres vivas...")
                         }
                     }
                     "no" -> {
                         when {
-                            !game.direTeam!!.towers.isEmpty() -> println(game.towerKilled(false))
+                            !game.direTeam.towers.isEmpty() -> println(game.towerKilled(false))
                             else -> println("No hay torres vivas...")
                         }
                     }
                 }
-                if (game.radiantTeam!!.towers.size == 0 || game.direTeam!!.towers.size == 0){
+                if (game.radiantTeam.towers.size == 0 || game.direTeam.towers.size == 0){
                     noTowers = true
                 }
             }
@@ -102,13 +100,13 @@ fun main (args: Array<String>) {
                 when(radiantKilled){
                     "si" -> {
                         when {
-                            game.direTeam!!.towers.isEmpty() -> println(game.ancientKilled(true))
+                            game.direTeam.towers.isEmpty() -> println(game.ancientKilled(true))
                             else -> print("Quedan vivas sus torres aun!")
                         }
                     }
                     "no" -> {
                         when {
-                            game.radiantTeam!!.towers.isEmpty() -> println(game.ancientKilled(false))
+                            game.radiantTeam.towers.isEmpty() -> println(game.ancientKilled(false))
                             else -> print("Quedan vivas sus torres aun!")
                         }
                     }
