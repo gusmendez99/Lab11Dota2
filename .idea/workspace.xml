@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="301a1068-1465-4a77-b2b9-cbb1fedb4bfc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Ancient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Ancient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Game.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Team.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Team.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/narrator/MorganFreeman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/narrator/MorganFreeman.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/narrator/RubenMoya.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/narrator/RubenMoya.kt" afterDir="false" />
-    </list>
+    <list default="true" id="301a1068-1465-4a77-b2b9-cbb1fedb4bfc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +33,7 @@
       <file leaf-file-name="Game.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/models/Game.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="14">
               <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
             </state>
           </provider>
@@ -305,7 +297,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-59" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -317,8 +308,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1650165" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.8481848" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6254125" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.8481848" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3480243" />
@@ -676,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Game.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="14">
           <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
         </state>
       </provider>
